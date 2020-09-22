@@ -1,24 +1,26 @@
+
 @font-face {
   font-family: 'Roboto';
   src: url('Roboto-Light.ttf') format('ttf'),
        url('Roboto-Light.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
-   }
+}
 
-   @font-face {
-     font-family: 'ptserif';
-     src: url('PTF75F.ttf') format('ttf'),
-          url('PTF75F.ttf') format('ttf');
-     font-weight: normal;
-     font-style: normal;
-      }
+@font-face {
+  font-family: 'ptserif';
+  src: url('PTF75F.ttf') format('ttf'),
+       url('PTF75F.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
   p {
-  font-family: “ptserif”, sans-serif;
-}
+    font-family: 'roboto', sans-serif;
+  }
 
-h1 {
-font-family: “ptserif”, sans-serif;
-}
+  h1 {
+    font-family: 'ptserif', sans-serif;
+  }
