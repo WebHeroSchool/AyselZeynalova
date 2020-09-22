@@ -1,15 +1,13 @@
 @font-face {
   font-family: 'roboto';
-  src: url('roboto/Roboto-Light.ttf') format('ttf'),
-       url('Roboto-Light.ttf') format('ttf');
+  src: url('roboto/Roboto-Light.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ptserif';
-  src: url('ptserif/PTF75F.ttf') format('ttf'),
-       url('ptserif/PTF75F.ttf') format('ttf');
+  src: url('ptserif/PTF75F.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
