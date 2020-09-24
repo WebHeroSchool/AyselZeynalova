@@ -6,6 +6,9 @@ h1 {
   font-family: 'pt_serif';
 }
 
+body {
+  margin: 0;
+}
 .wrapper {
   margin: auto;
   width: 80%;
@@ -40,9 +43,9 @@ font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   }
 
 .header {
-  padding:40px;
   display:flex;
   justify-content: space-between;
+
 }
 .menu {
   display:flex;
