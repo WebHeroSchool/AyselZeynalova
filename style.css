@@ -9,10 +9,6 @@ h1 {
 .wrapper {
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
-}
-.logo, .menu {
-  display: inline-block;
 }
 
 .logo {
