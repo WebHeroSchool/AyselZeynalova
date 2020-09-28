@@ -53,7 +53,7 @@ font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   width: 0;
   height: 3px;
   opacity:0;
-  tranition:opacity .5s, width .5s;
+  transition:opacity .5s, width .5s;
 }
 
 .menu__item:hover {
