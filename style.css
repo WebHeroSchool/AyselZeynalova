@@ -24,7 +24,6 @@ font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 
 .menu__item {
   position: relative;
-  padding: 0 13px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   margin-right: 26px;
   color: #000;
@@ -107,8 +106,6 @@ background: #0056EC;
   display:flex;
   align-items: center;
 }
-.menu__item {
-  padding: 0 13px;
 
 }
 menu__item:last-child {
