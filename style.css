@@ -108,7 +108,7 @@ background: #0056EC;
 }
 
 }
-menu__item:last-child {
+.menu__item:last-child {
 margin-right: 0;
 
 }
