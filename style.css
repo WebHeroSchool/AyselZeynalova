@@ -22,6 +22,7 @@ font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 
 }
 
+
 .menu__item {
   position: relative;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
@@ -145,3 +146,127 @@ margin-right: 0;
 .main__button:hover {
 	opacity: .5s;
 }
+
+@media screen and (max-width:768px) {
+	.menu {
+		display: none;
+	}
+
+.logo {
+   visibility: hidden;
+	
+	}
+	.header {
+		margin-bottom: 28px;
+	
+	}
+	
+	.main {
+		text-align: center;
+		padding: 74% 0 0;
+		background-size: 74%;
+		background-position: top center;
+	}
+
+   .main__title {
+		margin-bottom: 44px;
+		font: bold 30px/39px pt_serif,arial,helvetica, sans-serif;
+	}
+
+	.main__subtitle {
+		margin-bottom: 25px;
+		font:500 16px/19px Roboto, arial, helvetica, sans-serif;
+	}
+	
+	.main__button {
+		font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+	}
+}
+
+@media screen and (max-width:1024px) {
+
+	.header {
+		margin-bottom: 28px;
+	
+	}
+	
+	.main {
+		text-align: left;
+		padding: 0 63% 0;
+		background-size: 63%;
+		background-position: top-right;
+	}
+
+   .main__title {
+		margin-bottom: 44px;
+		font: bold 50px/65px pt_serif,arial,helvetica, sans-serif;
+	}
+
+	.main__subtitle {
+		margin-bottom: 25px;
+		font:500 18px/21px Roboto, arial, helvetica, sans-serif;
+	}
+	
+	.main__button {
+		font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+	}
+
+	@media screen and (max-width:1366px) {
+
+		.header {
+			margin-bottom: 28px;
+		
+		}
+		
+		.main {
+			text-align: center;
+			padding: 74% 0 0;
+			background-size: 74%;
+			background-position: top right;
+		}
+	
+		.main__title {
+			margin-bottom: 44px;
+			font: bold 50px/65px pt_serif,arial,helvetica, sans-serif;
+		}
+	
+		.main__subtitle {
+			margin-bottom: 25px;
+			font:500 18px/21px Roboto, arial, helvetica, sans-serif;
+		}
+		
+		.main__button {
+			font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+		}
+		@media screen and (max-width:1920px) {
+
+			.header {
+				margin-bottom: 28px;
+			
+			}
+			
+			.main {
+				text-align: center;
+				padding: 74% 0 0;
+				background-size: 74%;
+				background-position: top right;
+			}
+		
+			.main__title {
+				margin-bottom: 44px;
+				font: bold 50px/65px pt_serif,arial,helvetica, sans-serif;
+			}
+		
+			.main__subtitle {
+				margin-bottom: 25px;
+				font:500 18px/21px Roboto, arial, helvetica, sans-serif;
+			}
+			
+			.main__button {
+				font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+			}
+		
+
+}
+
+
