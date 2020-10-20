@@ -157,26 +157,25 @@ background: #0056EC;
  
  .menu__item_menu {
 	display: block;
-	padding: 20px 20px;
+	padding-top: 24px;
 	text-align:center;
- 
 	color: #000;
  
-	font-family: 'Roboto', sans-serif;
-	font-size: 30px;
+	font: bold 30px/35px Roboto,arial,helvetica, sans-serif;
 	font-weight: 700;
  
 	text-decoration: none;
  
 	transition-duration: .25s;
  }
+
+
  .menu__item_menu:hover {
 	opacity: 0.5;
  }
 .hamburger-menu {
 	display:none;
 }
-
 
 .logo__circle {
   position:absolute;
@@ -387,6 +386,11 @@ margin-right: 0;
 	.menu {
 		display: none;
 	}
+   	
+   .menu__box {
+   padding-top: 168px;
+	}
+	
 	.hamburger-menu {
 		display:block;
 	}
@@ -399,7 +403,7 @@ margin-right: 0;
 		margin-bottom: 8px;
 	
 	}
-
+   
 	.menu__btn {
 		display: flex;
 		align-items: center;
